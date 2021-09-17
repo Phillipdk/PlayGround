@@ -11,5 +11,5 @@ def test_simple():
     assert True
     
 def test_get_github_secrets():
-    s = os.environ.get("Simple")
+    s = os.environ.get("SIMPLE")
     assert s == "Simple"
