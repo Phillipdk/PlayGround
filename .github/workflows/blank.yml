@@ -40,5 +40,12 @@ jobs:
           pip install pytest
           pip install pytest-random-order
       - name: Test with pytest
+        env: 
+          SECRET_MONKEY_FATHER_NAME: ${{ secrets.SECRET_MONKEY_FATHER_NAME}}
+          SECRET_MONKEY_NAME: ${{ secrets.SECRET_MONKEY_NAME}}
+          SIMPLE: ${{ secrets.SIMPLE}}
         run: |
-          python -m pytest ./tests/ --random-order
+          python -m pytest ./tests/ -s -v --random-order
+          echo SECRET_MONKEY_FATHER_NAME
+          echo SECRET_MONKEY_NAME
+          echo SIMPLE
