@@ -16,4 +16,4 @@ def test_get_github_secrets():
     assert s == "Simple"
     
 def test_run_tutorial():
-    runpy.run_path("C:\\Users\\1990phkj\\Documents\\IoT_Suite\\PlayGround\\Tutorial.py")
+    runpy.run_path("Tutorial.py")
