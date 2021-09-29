@@ -15,7 +15,7 @@ def test_get_github_secrets():
     s = os.environ.get("SIMPLE")
     assert s == "Simple"
     
-def test_run_tutorial():
+def test_run_tutorial_temp():
     #input file
     fin = open("Tutorial.py", "rt")
     #output file to write the result to
@@ -28,6 +28,9 @@ def test_run_tutorial():
     fin.close()
     fout.close()
 
-    runpy.run_path("Tutorial_temo.py")
+    runpy.run_path("Tutorial_temp.py")
     
     os.remove("Tutorial_temp.py")
+
+def test_run_tutorial():
+    runpy.run_path("Tutorial.py")
