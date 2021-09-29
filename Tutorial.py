@@ -12,6 +12,10 @@ client_id = os.environ.get('CLIENT_ID')
 client_secret = os.environ.get('CLIENT_SECRET')
 componentId = os.environ.get('COMPONENT_ID')
 
+print(client_id)
+print(client_secret)
+print(componentId)
+
 ######################### Connection details #########################
 base_url = "https://edrmedesoapiservice.azurewebsites.net/"
 req_type = {"Content-Type": "application/json"}
