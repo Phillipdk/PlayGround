@@ -48,4 +48,9 @@ jobs:
           SECRET_MONKEY_FATHER_NAME: ${{ secrets.SECRET_MONKEY_FATHER_NAME }}
           SECRET_MONKEY_NAME: ${{ secrets.SECRET_MONKEY_NAME }}
           SIMPLE: ${{ secrets.SIMPLE }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          COMPONENT_ID: ${{ secrets.COMPONENT_ID }}
+          ALL_WEATHER_DEV_MODE: ${{ secrets.ALL_WEATHER_DEV_MODE}}
+          KEY_VAULT_NAME: ${{ secrets.KEY_VAULT_NAME}}
           
