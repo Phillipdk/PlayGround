@@ -8,9 +8,9 @@ import requests
 import json
 
 # Insert your company information
-client_id = os.environ.get('SIMPLE')
-client_secret = os.environ.get('SIMPLE')
-componentId = os.environ.get('SIMPLE')
+client_id = os.environ.get('CLIENT_ID')
+client_secret = os.environ.get('CLIENT_SECRET')
+componentId = os.environ.get('COMPONENT_ID')
 
 print(client_id)
 print(client_secret)
