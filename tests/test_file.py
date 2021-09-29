@@ -15,5 +15,5 @@ def test_get_github_secrets():
     s = os.environ.get("SIMPLE")
     assert s == "Simple"
     
-def run_tutorial():
+def test_run_tutorial():
     runpy.run_path("C:\\Users\\1990phkj\\Documents\\IoT_Suite\\PlayGround\\Tutorial.py")
