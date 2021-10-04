@@ -27,10 +27,9 @@ def test_run_tutorial_temp():
     #close input and output files
     fin.close()
     fout.close()
-
-    runpy.run_path("Tutorial_temp.py")
     
+    runpy.run_path("Tutorial_temp.py")
     os.remove("Tutorial_temp.py")
 
-def test_run_tutorial():
-    runpy.run_path("Tutorial.py")
+#def test_run_tutorial():
+#    runpy.run_path("Tutorial.py")
