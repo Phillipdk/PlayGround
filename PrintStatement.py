@@ -5,4 +5,4 @@ Created on Wed Sep 29 12:37:56 2021
 @author: 1990phkj
 """
 
-print("My name is SOMETHING")
+print("My name is SOMETHING but nothing at the same time.")
