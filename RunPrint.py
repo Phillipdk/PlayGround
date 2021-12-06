@@ -24,3 +24,6 @@ runpy.run_path("Tutorial.py")
 runpy.run_path("Tutorial_temp.py")
 
 #os.remove("PrintStatement_out.py")
+
+for i in range(3):
+    a = 3
